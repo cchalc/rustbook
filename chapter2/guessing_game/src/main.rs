@@ -11,4 +11,10 @@ fn main() {
         .read_line(&mut guess)
         .expect("Failed to read line");
 
+
+    println!("You guessed: {}", guess);
+
+    let _x = 3;
+
+
 }
